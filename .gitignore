@@ -4,6 +4,9 @@
 *.pyc
 .env
 .env.*
+__pycache__/
+.venv/
+.pytest_cache/
 
 # Node
 **/node_modules/
@@ -19,8 +22,3 @@ Thumbs.db
 
 # Logs
 *.log
-
-.env
-.venv/
-__pycache__/
-.pytest_cache/
